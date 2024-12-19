@@ -15,11 +15,12 @@
 
 h1, h2, p, a {
     font-family: "Poppins", sans-serif;
+    margin: 0;
 }
 
 h1 {
     font-size: var(--h1);
-    font-weight: 900;
+    font-weight: 700;
 }
 
 h2, p {
@@ -37,4 +38,27 @@ p {
 body {
     margin: 0px;
     padding: 0px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 5rem;
+}
+
+nav ul li {
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }

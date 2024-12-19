@@ -6,25 +6,3 @@ header {
     align-content: center;  
     padding: 20px;
 }
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    gap: 5rem;
-}
-
-nav ul li {
-    display: flex;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: var(--black);
-    font-weight: 600;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}

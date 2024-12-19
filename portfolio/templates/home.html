@@ -2,7 +2,31 @@
 
 {% block title %}Home{% endblock %}
 
+{% block styles %}
+    <style>
+        .hero, .projects {
+            display: flex;
+            justify-content: center; 
+            align-items: center;    
+            text-align: center;    
+            flex-direction: column;
+
+            padding: 4rem;
+        }
+
+        .hero {
+            background: var(--cream);
+        }
+    </style>
+{% endblock%}
+
 {% block content %}
-    <h2>Welcome to My Portfolio</h2>
-    <p>This is the home page of my portfolio. Here you can find information about my projects and skills.</p>
+<div class="hero">
+    <h1>hi 👋 i'm sophia!</h1>
+    <h2>a full-stack developer who’s passionate<br>about intuitive & accessible design 👩‍💻</h2>
+</div>
+
+<div class="projects">
+    <h1>current projects</h1>
+</div>
 {% endblock %}
