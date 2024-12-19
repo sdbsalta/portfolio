@@ -30,6 +30,31 @@
         text-align: left;
     }
 
+    .card .button {
+        display: inline-block;
+        padding: 10px 15px;
+        color: var(--black);
+        text-decoration: none;
+        border-radius: 100px;
+        text-align: center;
+    }
+    
+    .card .button.link-1 {
+        background-color: var(--pink); 
+    }
+    
+    .card .button.link-2 {
+        background-color: var(--yellow); 
+    }
+    
+    .card .button.link-1:hover {
+        background-color: #cc8aac; 
+    }
+
+    .card .button.link-2:hover {
+        background-color: #c59c4a; 
+    }
+
 </style>
 <div class="card">
     <img src="{{ project.image.url }}" alt="{{ project.project_name }}">
@@ -37,10 +62,10 @@
         <h2 class="project-name">{{ project.project_name }}</h2>
         <p class="description">{{ project.description }}</p>
         {% if project.link_1 %}
-            <a href="{{ project.link_1 }}" target="_blank">Link 1</a>
+            <a class="button link-1" href="{{ project.link_1 }}" target="_blank">view here</a>
         {% endif %}
         {% if project.link_2 %}
-            <a href="{{ project.link_2 }}" target="_blank">Link 2</a>
+            <a class="button link-2" href="{{ project.link_2 }}" target="_blank">github</a>
         {% endif %}
     </div>
 </div>
