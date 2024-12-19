@@ -11,12 +11,27 @@
             text-align: center;    
             flex-direction: column;
 
-            padding: 4rem;
-        }
+            padding-left: 10rem;
+            padding-right: 10rem;
 
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+        }
+        
         .hero {
             background: var(--cream);
         }
+
+        .projects h1 {
+            padding-bottom: 2rem;
+        }
+
+        .projects .card-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            justify-items: center;
+        }
+
     </style>
 {% endblock%}
 
