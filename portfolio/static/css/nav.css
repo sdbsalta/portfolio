@@ -1,33 +1,28 @@
-/* /static/css/nav.css */
-/* Styles for header and navigation menu */
+/* static/css/nav.css */
 header {
     background-color: var(--cream);; 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-    margin: 0;
-    font-size: 24px;
+    justify-content: center; 
+    align-content: center;  
+    padding: 20px;
 }
 
 nav ul {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    gap: 5rem;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: flex;
 }
 
 nav ul li a {
     text-decoration: none;
     color: var(--black);
-    font-size: 18px;
+    font-weight: 600;
 }
 
 nav ul li a:hover {

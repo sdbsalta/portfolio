@@ -5,12 +5,16 @@
 :root {
     --h1: 48px;
     --h2: 32px;
-    --body: 20px;
+    --p: 20px;
+    --black: #272727;
+    --pink: #FFADD7;
+    --yellow: #F6C35C;
+    --cream: #F9F4F0;
+    --white: #FFFFFF;
 }
 
-h1, h2, p {
+h1, h2, p, a {
     font-family: "Poppins", sans-serif;
-    font-style: bold; 
 }
 
 h1 {
@@ -30,12 +34,7 @@ p {
     font-size: var(--p);
 }
 
-
-/* global colors */
-:root {
-    --black: #272727;
-    --pink: #FFADD7;
-    --yellow: #F6C35C;
-    --cream: #F9F4F0;
-    --white: #FFFFFF;
+body {
+    margin: 0px;
+    padding: 0px;
 }
