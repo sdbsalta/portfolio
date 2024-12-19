@@ -1,0 +1,46 @@
+<!-- components/card.html -->
+
+<style>
+    .card {
+        padding: 2rem;
+        border-radius: 50px;
+        overflow: hidden;
+        background-color: var(--cream);
+        max-width: 40%;
+        text-transform: lowercase;
+    }
+
+    .card img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover; 
+        border-radius: 25px;
+    }
+
+    .card h2 {
+        font-weight: 600;
+    }
+
+    .card p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .card .card-content {
+        text-align: left;
+    }
+
+</style>
+<div class="card">
+    <img src="{{ project.image.url }}" alt="{{ project.project_name }}">
+    <div class="card-content">
+        <h2 class="project-name">{{ project.project_name }}</h2>
+        <p class="description">{{ project.description }}</p>
+        {% if project.link_1 %}
+            <a href="{{ project.link_1 }}" target="_blank">Link 1</a>
+        {% endif %}
+        {% if project.link_2 %}
+            <a href="{{ project.link_2 }}" target="_blank">Link 2</a>
+        {% endif %}
+    </div>
+</div>
