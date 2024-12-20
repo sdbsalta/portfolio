@@ -2,6 +2,29 @@
 
 {% block title %}About{% endblock %}
 
+{% block styles %}
+    <style>
+       .about .section-2 {
+            display: flex;
+            justify-content: center; 
+            align-items: center;    
+            text-align: center;   
+            flex-direction: column;
+
+            padding-left: 10rem;
+            padding-right: 10rem;
+
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+            
+            color: var(--cream);
+            background: var(--black);
+       }
+        
+    </style>
+{% endblock%}
+
+
 {% block content %}
 <div class="about">
     <div class="section-1">
@@ -19,7 +42,7 @@
         </div>
     </div>
     <div class="section-2">
-        <h1>interested in working together?</h1>
+        <h1>Interested in <span style="color: var(--pink);">working together</span>?</h1>
         <p>let’s have a chat 😁 you can reach out to me through<br>linkedin or my email at sdbsalta@gmail.com 📩</p>
     </div>
 {% endblock %}
