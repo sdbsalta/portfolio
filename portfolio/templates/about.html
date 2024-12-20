@@ -20,6 +20,17 @@
             color: var(--cream);
             background: var(--black);
        }
+
+       .about .section-2 .hover-link {
+        color: var(--yellow);
+        text-decoration: none; 
+        transition: color 0.3s ease, text-decoration 0.3s ease;
+      }
+      
+      .about .section-2 .hover-link:hover {
+        color: var(--pink);
+        text-decoration: underline;
+      }
         
     </style>
 {% endblock%}
@@ -43,6 +54,11 @@
     </div>
     <div class="section-2">
         <h1>Interested in <span style="color: var(--pink);">working together</span>?</h1>
-        <p>let’s have a chat 😁 you can reach out to me through<br>linkedin or my email at sdbsalta@gmail.com 📩</p>
+        <p>
+            Let’s have a chat 😁 You can reach out to me through<br>
+            <a href="https://www.linkedin.com/in/sophia-salta/" target="_blank" class="hover-link">LinkedIn</a> 
+            or my email at 
+            <a href="mailto:sdbsalta@gmail.com" class="hover-link">sdbsalta@gmail.com</a> 📩
+        </p>          
     </div>
 {% endblock %}
