@@ -7,7 +7,10 @@ export default {
     extend: {
       fontFamily: {
         splineSansMono: ['"Spline Sans Mono"', 'serif']
-      }      
+      },
+      screens: {
+        'xs': '320px',
+      },      
     },
   },
   plugins: [],
