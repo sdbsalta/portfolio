@@ -1,17 +1,18 @@
 import React from 'react';
-import { Card } from './Card';  // Import the Card component
+import { Card } from './Card';  
+import toDoList from '../img/portfolio_to-do-app.png';
 
 export const Projects = () => {
   return (
     <div id="projects">
-      <h1 className="text-4xl font-bold py-4"> Projects</h1>
+      <h1 className="sm:text-2xl md:text-3xl lg:text-4xl font-bold py-4"> Projects</h1>
       <hr className="border-gray-400 w-full pb-8"></hr>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <Card 
-          image="https://via.placeholder.com/300" 
+          image={toDoList}
           title="To-Do List"
-          description="Description for project 1 goes here."
+          description="a to-do list designed for quick, on-the-spot use—automatically resets upon refresh."
           link="http://portfolio-to-do-app.vercel.app"
         />
         {/*<Card 

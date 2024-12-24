@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <div className="bg-rose-100 min-h-64"></div>
-      <div className="font-splineSansMono text-slate-700 bg-white mx-40 my-20 lowercase">
+      <div className="font-splineSansMono text-slate-700 bg-white mx-40 my-20 sm:mx-10 sm:my-5 lowercase">
         <Header />
         <Projects />
         <AboutMe />
