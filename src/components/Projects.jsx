@@ -15,12 +15,14 @@ export const Projects = () => {
           title="To-Do List"
           description="a to-do list designed for quick, on-the-spot use—automatically resets upon refresh."
           link="http://portfolio-to-do-app.vercel.app"
+          githubLink="https://github.com/sdbsalta/portfolio_to-do-app"
         />
         <Card 
           image={memoryGame}
           title="Emoji Memory Game"
           description="A memory game designed for quick play—shows emojis for 3 seconds before flipping to test your memory."
           link="https://sdbsalta-memory-game.vercel.app"
+          githubLink="https://github.com/sdbsalta/portfolio_memory-game"
         />
         {/*<Card 
           image="https://via.placeholder.com/300" 
