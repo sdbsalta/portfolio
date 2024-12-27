@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card } from './Card';  
 import toDoList from '../img/portfolio_to-do-app.png';
+import memoryGame from '../img/portfolio_memory-game.png';
 
 export const Projects = () => {
   return (
@@ -15,13 +16,13 @@ export const Projects = () => {
           description="a to-do list designed for quick, on-the-spot use—automatically resets upon refresh."
           link="http://portfolio-to-do-app.vercel.app"
         />
-        {/*<Card 
-          image="https://via.placeholder.com/300" 
-          title="Project 2"
-          description="Description for project 2 goes here."
-          link="https://project2.com"
-        />
         <Card 
+          image={memoryGame}
+          title="Emoji Memory Game"
+          description="A memory game designed for quick play—shows emojis for 3 seconds before flipping to test your memory."
+          link="https://sdbsalta-memory-game.vercel.app"
+        />
+        {/*<Card 
           image="https://via.placeholder.com/300" 
           title="Project 3"
           description="Description for project 3 goes here."
