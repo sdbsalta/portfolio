@@ -37,7 +37,7 @@ export const AboutMe = () => {
                         <div className="flex items-center space-x-2">
                             <input type="checkbox" id="restaurants" className="mr-2" />
                             <label htmlFor="restaurants" className="sm:text-base md:text-lg lg:text-xl">
-                                Trying out different restaurants 🍽️
+                                Exploring machine learning, AI, and DevOps 💻
                             </label>
                         </div>
                     </div>
