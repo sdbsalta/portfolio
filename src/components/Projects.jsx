@@ -5,6 +5,9 @@ import toDoList from '../img/portfolio_to-do-app.png';
 import memoryGame from '../img/portfolio_memory-game.png';
 import neugigMockup from '../img/neugig/NeuGIG_Mockup.png';
 import talabMockup from '../img/talab/Talab Mockup.png';
+import magisAirMockup from '../img/magisair/magisair.png';
+import skyBrawlMockup from '../img/skybrawl/skybrawl start.png';
+import wellnessPackageMockup from '../img/wellness package/wellnessPackage Mockup.png';
 
 export const Projects = () => {
   return (
@@ -29,6 +32,14 @@ export const Projects = () => {
           link="https://sdbsalta-memory-game.vercel.app"
           githubLink="https://github.com/sdbsalta/portfolio_memory-game"
         />
+         <ProjectCard 
+          image={magisAirMockup}
+          title="Magis Air"
+          techstack="django · postgresql · html · css"
+          description="an airline management system that streamlines flight scheduling, bookings, routes, costs, and crew assignments."
+          link="/magisair"
+          githubLink="https://github.com/sdbsalta/csci41-magisair"
+        />
         <ProjectCard 
           image={neugigMockup}
           title="NeuGig"
@@ -41,6 +52,21 @@ export const Projects = () => {
           techstack="django · html · css"
           description="TALAB is ADMU’s annual event on national issues—I led the 2024 website’s frontend development and UI revamp for better usability."
           link="/talab"
+        />
+        <ProjectCard 
+          image={skyBrawlMockup}
+          title="Sky Brawl"
+          techstack="java · aws ec2"
+          description="Sky Brawl is a fast-paced 2D multiplayer PVP game built with Java NET, featuring server functionality, flying mechanics, dynamic projectile direction based on keyboard inputs, and real-time collision detection"
+          link="/skybrawl"
+          githubLink="https://github.com/sdbsalta/csci22-skybrawl"
+        />
+        <ProjectCard 
+          image={wellnessPackageMockup}
+          title="Wellness Package"
+          techstack="figma"
+          description="A mobile app for preventive health and wellness, specifically tailored to meet the needs of Filipinos."
+          link="/wellnesspackage"
         />
         {/*<Card 
           image={toDoList}

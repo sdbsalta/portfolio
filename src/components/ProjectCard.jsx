@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export const ProjectCard = ({ image, title, techstack, description, link }) => {
+export const ProjectCard = ({ image, title, techstack, description, link, githubLink }) => {
   return (
     <div className="block max-w-sm rounded-lg overflow-hidden shadow-lg bg-white">
       <div className="w-full h-[200px] max-h-[200px] overflow-hidden">
@@ -19,6 +19,16 @@ export const ProjectCard = ({ image, title, techstack, description, link }) => {
         <Link to={link} className="text-xs px-3 py-2 bg-rose-400 text-white rounded-md hover:font-semibold hover:underline">
             Read More
         </Link>
+        {githubLink && (
+          <a 
+            href={githubLink} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-xs px-3 py-2 bg-rose-100 text-rose-600 rounded-md hover:font-semibold hover:underline"
+          >
+            GitHub
+          </a>
+        )}
       </div>
       </div>
     </div>

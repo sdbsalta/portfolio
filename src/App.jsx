@@ -7,6 +7,9 @@ import Header from './components/Header';
 
 import NeuGig from './projects/NeuGig';  
 import Talab from './projects/Talab';  
+import MagisAir from './projects/MagisAir';  
+import SkyBrawl from './projects/SkyBrawl';  
+import WellnessPackage from './projects/WellnessPackage';  
 import './App.css';  
 
 const App = () => {
@@ -28,8 +31,11 @@ const App = () => {
             } />
 
             {/* proj pages */}
+            <Route path="/magisair" element={<MagisAir />} />
             <Route path="/neugig" element={<NeuGig />} />
             <Route path="/talab" element={<Talab />} />
+            <Route path="/skybrawl" element={<SkyBrawl />} />
+            <Route path="/wellnesspackage" element={<WellnessPackage />} />
           </Routes>
         </div>
       </div>
