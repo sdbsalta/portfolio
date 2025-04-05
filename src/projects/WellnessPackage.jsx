@@ -32,7 +32,7 @@ const WellnessPackage = () => {
       {/* Main Content */}
       <main className="md:w-3/4 w-full bg-white p-6 rounded-md shadow-xl">
         <section id="overview" className="mb-8">
-          <h1 className="text-3xl font-bold">NeuGig Project</h1>
+          <h1 className="text-3xl font-bold">wellness package</h1>
           <p className="text-gray-600 mt-2">
             The wellness package is a mobile app designed to promote preventive healthcare among Filipinos. 
             This app focuses on proactive health management, providing users with tools to monitor and prevent chronic diseases such 
