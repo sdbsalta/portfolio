@@ -8,10 +8,7 @@ export const ContactMe = () => {
         <h2 className="sm:text-xl md:text-2xl lg:text-3xl py-4">interested in working together?</h2>
         <p className="sm:text-base md:text-lg lg:text-xl">
             Let’s have a chat 😁 You can reach out to me through {' '}
-            <a href="https://www.linkedin.com/in/sophia-salta/" className="text-rose-500 hover:font-semibold hover:underline">
-            LinkedIn
-            </a>{' '}
-            or my email at{' '}
+            my email at{' '}
             <a href="mailto:sdbsalta@gmail.com" className="text-rose-500 hover:underline hover:font-semibold">
             sdbsalta@gmail.com
             </a>{' '}
